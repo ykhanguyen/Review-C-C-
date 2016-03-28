@@ -24,5 +24,14 @@ int main() {
 	
 	printVector(listOfVector);
 	
+	//pop the last element
+	listOfVector.pop_back();
+	cout << "Pop back " << endl; 	
+	printVector(listOfVector);
+	
+	//take the first element without modify the vector list
+	listOfVector.front();
+	cout << "Front " << listOfVector.front() << endl;
+	printVector(listOfVector);
 	return 0;
 }
